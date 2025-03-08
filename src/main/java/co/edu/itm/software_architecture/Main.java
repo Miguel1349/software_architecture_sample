@@ -71,7 +71,10 @@ public class Main {
         LoginUI loginUI = new LoginUI();
         loginUI.render();
         // ============= Controller CodeSmell =============
-       */
+
+        LoginUI loginUI = new LoginUI();
+        loginUI.render();*/
+
         LoginUI loginUI = new LoginUI();
         loginUI.render();
     }
